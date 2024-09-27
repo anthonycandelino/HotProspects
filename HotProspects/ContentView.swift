@@ -17,12 +17,12 @@ struct ContentView: View {
             
             ProspectsView(filter: .contacted)
                 .tabItem {
-                    Label("Contacted", systemImage: "checkmark.circle")
+                    Label("Contacted", systemImage: "person.crop.circle.badge.checkmark")
                 }
             
             ProspectsView(filter: .uncontacted)
                 .tabItem {
-                    Label("Uncontacted", systemImage: "questionmark.diamond")
+                    Label("Uncontacted", systemImage: "person.crop.circle.badge.questionmark")
                 }
             
             MeView()
